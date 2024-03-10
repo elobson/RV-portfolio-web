@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    list-style: none;
+}
+
+body{
+ background-color: #D7ECFF;
+}
+
+
+
+.header{
+    background-color: #0A55EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    border: 4px solid #D7ECFF;
+    transform: scale(1.2);
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    font-family: "Anton", sans-serif;
+    display: inline-block;
+    padding: 0 20px;
+    transition: all 0.3s;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1);
+}
+.header .nav-links a{
+    font-size: 700;
+    color: #D7ECFF;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    margin: 50px;
+    color: #11275A;
+}
+
+.container{
+    margin: 100px;
+}
+.text-container{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #11275A;
+    font-size: 30px;
+}
