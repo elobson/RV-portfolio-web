@@ -27,12 +27,12 @@ body{
     height: 70px;
     width: auto;
     border-radius: 50%;
-    transition: all 0.3s;
+    
 }
 
 .header .logo img:hover{
     border: 4px solid #D7ECFF;
-    transform: scale(1.2);
+    
 }
 
 .header .nav-links {
@@ -77,3 +77,80 @@ body{
     color: #11275A;
     font-size: 30px;
 }
+
+form {
+    font-family: "Anton", sans-serif;
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    margin: 200px;
+    backdrop-filter: blur(10px);
+   
+ }
+
+ .input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+ }
+
+ h2 {
+    color: #11275A;
+    font-size: 35px;
+    font-weight: 400;
+ }
+
+ label {
+    color: #11275A;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+
+ }
+
+ input, textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #D7ECFF;
+    border: 2px solid #11275A;
+    color: #283629;
+    outline: none;
+ }
+
+ input::placeholder, textarea::placeholder {
+    color: #11275A;
+ }
+
+ .form-txt {
+    font-family: "Anton", sans-serif;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+ }
+
+.form-txt a{
+    
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+ }
+
+.btn {
+    font-size: 16px;
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    color: #D7ECFF;
+    border: 0;
+    border-radius: 25px;
+    background-color: #11275A;
+    box-shadow: 0 0 20px #0A55EB;
+    cursor: pointer;
+ }
+
+.btn:hover {
+    background-color: #0A55EB;
+ }
