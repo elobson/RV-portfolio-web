@@ -40,23 +40,23 @@
             con ganas de siempre aprender mas, domino HTML y CSS.</article>
     </div>
 
-    <form action="https://formsubmit.co/ramon'vegaab@outlook.com" method="POST">
+    <form action="https://formsubmit.co/ramon-vegaab@outlook.com" method="POST">
 
         <h2>Contacto</h2>
 
         <div class="input-group">
 
-            <label for="name">Nombre</label>
-            <input type="text" name="name" id="name" placeholder="Ingrese aqui su nombre">
+            <label for="name">Nombre <span>*</span></label>
+            <input type="text" name="name" id="name" placeholder="Ingrese aqui su nombre" required>
 
             <!-- <label for="phone">Telefono</label>
             <input type="tel" name="phone" id="phone" placeholder="Telefono"> -->
 
-            <label for="email">Correo Electronico</label>
-            <input type="email" name="email" id="email" placeholder="Correo Electronico Valido ">
+            <label for="email">Correo Electronico<span>*</span></label>
+            <input type="email" name="email" id="email" placeholder="Correo Electronico Valido" required>
 
-            <label for="message">Mensaje</label>
-            <textarea name="message" id="message" cols="30" rows="5" placeholder="Ingresa aqui tu peticion y pronto se te respondera!"></textarea>
+            <label for="message">Mensaje<span>*</span></label>
+            <textarea name="message" id="message" cols="30" rows="5" placeholder="Ingresa aqui tu peticion y pronto se te respondera!" required></textarea>
 
             <input class="btn" type="submit" value="Enviar">
 
