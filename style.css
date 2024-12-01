@@ -9,13 +9,13 @@
 }
 
 body{
- background-color: #D7ECFF;
+ background-color: #cc0000;
 }
 
 
 
 .header{
-    background-color: #0A55EB;
+    background-color: #000000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,7 +64,7 @@ body{
     font-weight: 400;
     font-size: 100px;
     margin: 50px;
-    color: #11275A;
+    color: #ffc6a5;
 }
 
 .container{
@@ -74,7 +74,7 @@ body{
     font-family: "Anton", sans-serif;
     font-weight: 400;
     text-align: center;
-    color: #11275A;
+    color: #ffc6a5;
     font-size: 30px;
 }
 
@@ -86,6 +86,7 @@ form {
     text-align: center;
     margin: 200px;
     backdrop-filter: blur(10px);
+    background-color: #fc0606;
    
  }
 
@@ -96,15 +97,15 @@ form {
  }
 
  h2 {
-    color: #11275A;
+    color: #ffc6a5;
     font-size: 35px;
     font-weight: 400;
  }
 
  label {
-    color: #11275A;
-    font-size: 15px;
-    font-weight: 400;
+    color: #ffc1c1;
+    font-size: 20px;
+    font-weight: 300;
     margin-bottom: 15px;
 
  }
@@ -113,14 +114,14 @@ form {
     padding: 17px 25px;
     border-radius: 25px;
     margin-bottom: 20px;
-    background-color: #D7ECFF;
-    border: 2px solid #11275A;
+    background-color: #ffc1c1;
+    border: 2px solid #ffc6a5;
     color: #283629;
     outline: none;
  }
 
  input::placeholder, textarea::placeholder {
-    color: #11275A;
+    color: #000000;
  }
 
  .form-txt {
@@ -140,21 +141,25 @@ form {
  }
 
 .btn {
-    font-size: 16px;
+    font-size: 20px;
     font-family: "Anton", sans-serif;
-    font-weight: 200;
+    font-weight: 150;
     color: #D7ECFF;
     border: 0;
     border-radius: 25px;
-    background-color: #11275A;
-    box-shadow: 0 0 20px #0A55EB;
+    background-color: #000000;
+    box-shadow: 0 0 20px #500000;
     cursor: pointer;
  }
 
 .btn:hover {
-    background-color: #0A55EB;
+    background-color: #500000;
  }
 
  span{
-    color: red;
+    color: #ffdddd;
+ }
+
+ #message{
+    font-family: sans-serif;
  }

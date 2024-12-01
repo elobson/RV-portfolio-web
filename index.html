@@ -17,7 +17,7 @@
 
                 <li><a href="#">Sobre mi</a></li>
                 <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -34,36 +34,41 @@
     <h2 class="title">SOBRE MI</h2>
     <div class="container">
 
-        <article class="text-container">Mi nombre es Ramon Vega, 
-            soy originario de Mexico empece en la programacion a principios de 2023 
-            teniendo mi propio grupo de programadores llamado “Vegas Programers” especializado en Front-End, 
-            con ganas de siempre aprender mas, domino HTML y CSS.</article>
+        <article class="text-container">Mi nombre es Ramon Vega. Nací en México y comencé a programar a principios de
+             2023. Fundé un grupo de programadores llamado "Vegas Programers", especializado en desarrollo Front-End. 
+             Tengo un sólido dominio de HTML y CSS y siempre estoy buscando oportunidades para aprender y 
+             crecer profesionalmente.</article>
     </div>
 
-    <form action="https://formsubmit.co/ramon-vegaab@outlook.com" method="POST">
+    <div class="form-content" id="contacto">
 
-        <h2>Contacto</h2>
+        <form action="https://formsubmit.co/ramon-vegaab@outlook.com" method="POST">
 
-        <div class="input-group">
+            <h2>Contactame!</h2>
 
-            <label for="name">Nombre <span>*</span></label>
-            <input type="text" name="Nombre" id="name" placeholder="Ingrese aqui su nombre" required>
+            <div class="input-group">
 
-            <!-- <label for="phone">Telefono</label>
-            <input type="tel" name="phone" id="phone" placeholder="Telefono"> -->
+                <label for="name">Nombre <span>*</span></label>
+                <input type="text" name="Nombre" id="name" placeholder="Ingrese aqui su nombre" required>
 
-            <label for="email">Correo Electronico<span>*</span></label>
-            <input type="email" name="Correo" id="email" placeholder="Correo Electronico Valido" required>
+                <!-- <label for="phone">Telefono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Telefono"> -->
 
-            <label for="message">Mensaje<span>*</span></label>
-            <textarea name="Mensaje" id="message" cols="30" rows="5" placeholder="Ingresa aqui tu peticion y pronto se te respondera!" required></textarea>
+                <label for="email">Correo Electronico <span>*</span></label>
+                <input type="email" name="Correo" id="email" placeholder="Correo Electronico Valido" required>
 
-            <input class="btn" type="submit" value="Enviar">
+                <label for="message">Mensaje <span>*</span></label>
+                <textarea name="Mensaje" id="message" cols="30" rows="5" placeholder="Ingresa aqui tu peticion y pronto se te respondera!" required></textarea>
 
-            <input type="hidden" name="_captcha" value="false">
+                <input class="btn" type="submit" value="Enviar">
+
+                <input type="hidden" name="_captcha" value="false">
+
+                <p>(Si tienes problemas con el formulario de arriba, manda tu correo manualmente a ramonvega.ab@gmail.com)</p>
             
-        </div>
+             </div>
 
-    </form>
+        </form>
+     </div>
 </body>
 </html>
